@@ -6,4 +6,4 @@ function insertAfter(newElement,targetElement) {
 		parent.insertBefore(newElement,targetElement.nextSibling);
 	};
 }
-addLoadEvent(insertAfter);
+// addLoadEvent(insertAfter);
